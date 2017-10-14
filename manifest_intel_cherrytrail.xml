@@ -23,16 +23,14 @@
     <remove-project name="CyanogenMod/android_hardware_intel_img_libdrm" />
     <remove-project name="platform/hardware/intel/img/psb_headers" />
     <remove-project name="platform/hardware/intel/img/psb_video" />
-    <!-- Fix callDrawGLFunction -->
-    <remove-project name="ResurrectionRemix/android_frameworks_webview" />
 
     <!-- CM replacements -->
     <remove-project name="CyanogenMod/android_bionic" />
-    <remove-project name="ResurrectionRemix/android_build" />
+    <remove-project name="crdroidandroid/android_build" />
     <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
     <remove-project name="CyanogenMod/android_external_sepolicy" />
-    <remove-project name="android_frameworks_av" />
-    <remove-project name="system_core" />
+    <remove-project name="CyanogenMod/android_frameworks_av" />
+    <remove-project name="crdroidandroid/android_system_core" />
     <remove-project name="CyanogenMod/android_system_netd" />
     <project path="bionic" name="CM-CHT/android_bionic" revision="cm-12.1" />
     <project path="build" name="CM-CHT/android_build" revision="cm12.1" >
@@ -43,6 +41,4 @@
     <project path="frameworks/av" name="CM-CHT/android_frameworks_av" revision="cm12.1" />
     <project path="system/core" name="CM-CHT/android_system_core" revision="cm-12.1" />
     <project path="system/netd" name="CM-CHT/android_system_netd" revision="cm-12.1" />
-    <!-- Fix callDrawGLFunction -->
-    <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" revision="cm-12.1" />
 </manifest>
