@@ -5,7 +5,7 @@ How to build:
 
 Initialize repo:
 
-    repo init -u git://github.com/ResurrectionRemix/platform_manifest.git -b optimized-lollipop5.1
+    repo init -u git://github.com/ResurrectionRemix/platform_manifest.git -b optimized-lollipop5.1 --depth=1 -groups=all,-notdefault,-device,-darwin,-mips,-exynos5
     curl --create-dirs -L -o .repo/local_manifests/manifest_intel_cherrytrail.xml -O -L https://raw.githubusercontent.com/Ottavio97/android_local_manifest/rr-559/manifest_intel_cherrytrail.xml
     repo sync
 
